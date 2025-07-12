@@ -1,0 +1,28 @@
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+  .topbar h2 {
+    margin: 0 0 4px 0;
+    font-size: 1.5rem;
+  }
+  .topbar p {
+    margin: 0;
+    color: #888;
+  }
+  .post-job-btn {
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.2s;
+  }
+  .post-job-btn:hover {
+    background: #125ea2;
+  }
